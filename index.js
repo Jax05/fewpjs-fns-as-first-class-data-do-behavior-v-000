@@ -13,11 +13,11 @@ function greet(timeString) {
   const hour = parseInt(timeArray[0])
 
   if (hour >= 12 && hour < 17) {
-    console.log("Good Afternoon")
+    return "Good Afternoon"
   }else if (hour >= 17) {
-    console.log("Good Evening")
+    return "Good Evening"
   }else if (hour < 12) {
-    console.log("Good Morning")
+    return "Good Morning"
   }
 }
 /* Write your implementation of displayMessage() */
