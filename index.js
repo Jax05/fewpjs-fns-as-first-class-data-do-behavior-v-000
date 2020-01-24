@@ -7,7 +7,6 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-/* Write your implementation of greet() */
 function greet(timeString) {
   const timeArray = timeString.split(":")
   const hour = parseInt(timeArray[0])
@@ -20,4 +19,7 @@ function greet(timeString) {
     return "Good Morning"
   }
 }
-/* Write your implementation of displayMessage() */
+
+function displayMessage(message) {
+  let content = document.getElementById("greeting").innerText(message)
+}
