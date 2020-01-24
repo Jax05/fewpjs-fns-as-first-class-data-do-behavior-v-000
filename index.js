@@ -9,8 +9,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeString) {
-  timeArray = timeString.split(":")
-  hour = parseInt(timeArray[0])
+  const timeArray = timeString.split(":")
+  const hour = parseInt(timeArray[0])
 
   if (hour >= 12 && hour < 17) {
     console.log("Good Afternoon")
